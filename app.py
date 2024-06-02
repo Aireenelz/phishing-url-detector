@@ -8,7 +8,7 @@ def predict_website_status(user_input):
     return website_status
 
 # Page title & header
-st.title("Phishing Website Detector")
+st.title("Phishing URL Detector")
 st.markdown("A machine learning application used to identify a malicious website from its link. Input a link to get started!")
 
 # Get user input
