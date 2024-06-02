@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 
-# Useful functions
+# For debugging - display status on terminal
 def predict_website_status(user_input):
     try:
         # Wrap the user input in a list
