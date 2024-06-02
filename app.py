@@ -32,7 +32,7 @@ result = None
 if st.button("Predict"):
     result = predict_website_status(user_input)
 
-# Produce output
+# Produce output and show in output section
 if result is not None:
     if result[0] == 'good':  # Assuming 'good' means safe
         st.success("This website is safe")
