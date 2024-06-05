@@ -4,6 +4,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import string
+import nltk
+from nltk.corpus import stopwords
 
 # Page configuration
 st.set_page_config(
