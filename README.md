@@ -7,12 +7,13 @@ The Phishing Site Detector is a machine learning application that identifies mal
 ## Installation
 To install the Phishing URL Detector, follow these steps:
 1. Clone the repository.
-2. Install the required dependencies
+2. Install the required dependencies including streamlit and appropriate python libraries.
 
 
 ## Usage
-1. Run the app.py file:
+1. Run the app.py file locally. 
 2. Input a website link into the text box.
 3. Click the "Predict" button to check if the website is safe or malicious.
+4. Alternatively, you can also access the streamlit app through this link: https://phishing-site-detector.streamlit.app/
 
 
